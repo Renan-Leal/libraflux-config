@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   libraflux-api:
-    image: renanleal/libraflux:libraflux:pr-25
+    image: renanleal/libraflux:pr-22
     container_name: libraflux-api
     ports:
       - "80:8000"

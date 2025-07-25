@@ -9,4 +9,3 @@ services:
     volumes:
       - .:/app
     env_file: ./config/libraflux-conf.env
-    network_mode: host

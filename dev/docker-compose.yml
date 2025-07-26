@@ -6,6 +6,4 @@ services:
     container_name: libraflux-api
     ports:
       - "80:8000"
-    volumes:
-      - .:/app
     env_file: ./config/libraflux-conf.env
